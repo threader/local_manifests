@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
-<remove-project name="platform/hardware/qcom/camera" />
+<!-- <remove-project name="hardware/qcom/camera" />-->
 <project path="hardware/qcom/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
+<!--
 <project path="kernel/sony/msm" name="kernel" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
-<project path="device/sony/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
-<project path="device/sony/common-kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
+-->
+<!-- <project path="device/sony/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
+<project path="device/sony/common-kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" clone-depth="1" />
+-->
+<remote name="threader" fetch="https://github.com/threader" />
+<!-- <project path="kernel/sony/msm8994" name="android_kernel_sony_msm8994" groups="device" remote="threader"  revision="lineage-15.1" />
+-->
+<!-- <project path="kernel/sony/kernel"  name="kernel" groups="device" remote="threader"  revision="aosp/LA.BR.1.3.3_rb2.14" />
+-->
 </manifest>

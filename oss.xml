@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
-<project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="m-mr1" />
+<!-- <project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="m-mr1" />
 <project path="vendor/qcom/opensource/fm" name="vendor-qcom-opensource-fm" groups="device" remote="sony" revision="master" />
 <project path="vendor/qcom/opensource/location" name="vendor-qcom-opensource-location" groups="device" remote="sony" revision="m-mr1" />
-<project path="vendor/sony-oss/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="master" />
-<project path="vendor/sony-oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
-<project path="vendor/sony-oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
-<project path="vendor/sony-oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
-<project path="vendor/sony-oss/transpower" name="transpower" groups="device" remote="sony" revision="android-7.1.1_r55" />
+<project path="vendor/qcom/opensource/time-services" name="vendor-qcom-opensource-time-services" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="android-7.1.1_r55" />
+<project path="vendor/oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/transpower" name="transpower" groups="device" remote="sony" revision="android-7.1.1_r55" />
 <project path="packages/apps/ExtendedSettings" name="packages_apps_ExtendedSettings" groups="device" remote="sony" revision="n-mr1" />
-<project path="packages/apps/FMRadio" name="packages-apps-FMRadio" groups="device" remote="sony" revision="m-mr1" />
+<project path="packages/apps/FMRadio" name="packages-apps-FMRadio" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/json-c" name="json-c" groups="device" remote="sony" revision="master" />
+-->
+<project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="master" />
+<project path="vendor/qcom/opensource/location" name="vendor-qcom-opensource-location" groups="device" remote="sony" revision="o-mr1" />
+<project path="vendor/qcom/opensource/time-services" name="vendor-qcom-opensource-time-services" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/transpower" name="transpower" groups="device" remote="sony" revision="android-8.1.0_r35" />
+
+<!--<project path="vendor/oss/repo_update" name="repo_update" groups="device" remote="sony" revision="n-mr1-legacy">
+    <linkfile src="repo_update.sh" dest="repo_update.sh" /> -->
+<!-- <remote fetch="https://source.codeaurora.org/quic/la/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LA.BF64.1.2.3_rb1.18"/>
+  <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="dfab2a8b0418966421160512bfb18ec57b20159f" upstream="LA.BF64.1.2.3_rb1.18"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" revision="6ed645ba533dde0b2150992134f185983c81bd0d" upstream="LA.BF64.1.2.3_rb1.18"/>
+  <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location" revision="c1ac53a931dc0b38f637626f29d9b46b14d148ef" upstream="LA.BF64.1.2.3_rb1.18"/>
+
+</project>
+-->
 </manifest>
