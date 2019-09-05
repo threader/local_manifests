@@ -50,7 +50,7 @@
 <remote name="threader" fetch="https://github.com/threader" />
 <project path="device/sony/sumire" name="android_device_sony_sumire"  groups="device" remote="threader" revision="lineage-15.1" />
 <project path="device/sony/kitakami-common" name="android_device_sony_kitakami-common"  groups="device" remote="threader" revision="lineage-15.1" />
-<project path="device/sony/rhine-common" name="android_device_sony_honami"   groups="device" remote="threader" revision="lineage-15.1" />
+<project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common"   groups="device" remote="threader" revision="mk-n" />
 <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" groups="device" remote="threader" revision="mk-n" />
 <project path="device/sony/honami" name="android_device_sony_honami" groups="device" remote="threader" revision="mk-n" />
 
