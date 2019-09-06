@@ -74,4 +74,5 @@
 <remove-project name="platform/prebuilts/go/darwin-x86" />
 <remove-project name="platform/prebuilts/ninja/darwin-x86" />
 -->
+<remove-project name="hardware/qcom/camera/QCamera2" />
 </manifest>

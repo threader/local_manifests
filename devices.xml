@@ -10,7 +10,7 @@
 <project path="device/sony/sony-rhine" name="device-sony-rhine" groups="device" remote="sony" revision="n-mr1" />
 
 <project path="device/sony/sony-amami" name="device-sony-amami" groups="device" remote="sony" revision="n-mr1" />
-<!--<project path="device/sony/honami" name="device-sony-honami" groups="device" remote="sony" revision="n-mr1" /> -->
+<project path="device/sony/sony-honami" name="device-sony-honami" groups="device" remote="sony" revision="n-mr1" />
 <project path="device/sony/togari" name="device-sony-togari" groups="device" remote="sony" revision="n-mr1" />
 
 <!--msm8974-->
