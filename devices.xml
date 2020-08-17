@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+<project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="n-mr1-legacy" />
 <!-- <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="n-mr1" /> 
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="master" />
--->
-<project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="n-mr1-legacy" />
-<!-- <project path="device/sony/common-init" name="device-sony-common-init" groups="device" remote="sony" revision="n-mr1" /> -->
+<project path="device/sony/common-init" name="device-sony-common-init" groups="device" remote="sony" revision="n-mr1" /> -->
 
 <!--msm8974
 <project path="device/sony/sony-rhine" name="device-sony-rhine" groups="device" remote="sony" revision="n-mr1" />
-
 <project path="device/sony/sony-amami" name="device-sony-amami" groups="device" remote="sony" revision="n-mr1" />
 <project path="device/sony/sony-honami" name="device-sony-honami" groups="device" remote="sony" revision="n-mr1" />
 <project path="device/sony/sony-togari" name="device-sony-togari" groups="device" remote="sony" revision="n-mr1" />
@@ -42,10 +40,10 @@
 <project path="device/sony/sony-kugo" name="device-sony-kugo" groups="device" remote="sony" revision="n-mr1-legacy" />
 <project path="device/sony/sony-suzu" name="device-sony-suzu" groups="device" remote="sony" revision="n-mr1-legacy" />
 -->
-<remote name="Sony-MSM8994" fetch="https://github.com/Sony-MSM8994" />
-<project path="device/sony/satsuki" name="android_device_sony_satsuki "  groups="device" remote="Sony-MSM8994" revision="lineage-17.1" />
-<project path="device/sony/suzuran" name="android_device_sony_suzuran" groups="device" remote="Sony-MSM8994" revision="lineage-17.1" />
-<project path="vendor/sony" name="proprietary_vendor_sony" groups="device" remote="Sony-MSM8994" revision="lineage-17.1" />
+<remote name="Sony-MSM8994-Dev" fetch="https://github.com/Sony-MSM8994-Dev" />
+<project path="device/sony/satsuki" name="android_device_sony_satsuki"  groups="device" remote="Sony-MSM8994-Dev" revision="lineage-17.1" />
+<project path="device/sony/suzuran" name="android_device_sony_suzuran" groups="device" remote="Sony-MSM8994-Dev" revision="lineage-17.1" />
+<project path="vendor/sony" name="proprietary_vendor_sony" groups="device" remote="Sony-MSM8994-Dev" revision="lineage-17.1" />
 
 <remote name="threader" fetch="https://github.com/threader" />
 <project path="device/sony/sumire" name="android_device_sony_sumire"  groups="device" remote="threader" revision="lineage-17.1" />
