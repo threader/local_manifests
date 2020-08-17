@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<project name="LineageOS/android_hardware_sony_timekeep" path="vendor/oss/timekeep" remote="github" revision="lineage-17.1" />
-	<project name="LineageOS/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices remote="github" revision="lineage-17.1" />
+	<!-- <project name="LineageOS/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="lineage-17.1" /> -->
 	<project name="LineageOS/android_hardware_sony_thermanager"  path="vendor/oss/thermanager"  remote="github" revision="lineage-17.1" />
 	<project name="LineageOS/android_hardware_sony_macaddrsetup" path="vendor/oss/macaddrsetup" remote="github" revision="lineage-17.1" />
 	
